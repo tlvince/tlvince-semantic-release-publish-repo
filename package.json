@@ -6,7 +6,7 @@
     "prebuild": "rm -rf dist && mkdir -p dist",
     "build": "date > dist/dist.txt",
     "prepublish-repo": "npm run build",
-    "publish-repo": "publish-repo --author-name tlvince-bot --author-email tlvince-bot@tlvince.com",
+    "publish-repo": "publish-repo",
     "test": "exit",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
@@ -36,7 +36,7 @@
     "author": "tlvince-bot <tlvince-bot@tlvince.com>"
   },
   "devDependencies": {
-    "publish-repo": "1.0.1",
+    "publish-repo": "1.0.2",
     "semantic-release": "^4.3.5"
   }
 }
