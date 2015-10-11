@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build": "date > dist/dist.txt",
-    "prepubish-repo": "npm run build",
+    "prepublish-repo": "npm run build",
     "publish-repo": "publish-repo --author-name tlvince-bot --author-email tlvince-bot@tlvince.com",
     "test": "exit",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
