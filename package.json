@@ -36,7 +36,7 @@
     "author": "tlvince-bot <tlvince-bot@tlvince.com>"
   },
   "devDependencies": {
-    "publish-repo": "1.0.2",
+    "publish-repo": "1.0.3",
     "semantic-release": "^4.3.5"
   }
 }
