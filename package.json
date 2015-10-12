@@ -33,10 +33,11 @@
       "README.md",
       "dist/*"
     ],
-    "author": "tlvince-bot <tlvince-bot@tlvince.com>"
+    "author": "tlvince-bot <tlvince-bot@tlvince.com>",
+    "branch": "develop"
   },
   "devDependencies": {
-    "publish-repo": "1.0.4",
+    "publish-repo": "1.0.5",
     "semantic-release": "^4.3.5"
   }
 }
